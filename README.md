@@ -51,9 +51,9 @@ GESTION_DE_PASARELAS/
 ├── config/
 ├── core/
 ├── frontent/
-├── venv/
 ├── docs/
 ├── test/  
+├── env
 ├── requirements.txt
 ├── README.md
 └── manage.py
