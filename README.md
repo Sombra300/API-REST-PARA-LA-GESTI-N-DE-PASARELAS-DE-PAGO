@@ -1,4 +1,4 @@
-# API-REST-PARA-LA-GESTI-N-DE-PASARELAS-DE-PAGO
+# API-REST-PARA-LA-GESTION-DE-PASARELAS-DE-PAGO
 
 Proyecto final desarrollado con Django y Django REST Framework para la gestión centralizada de proveedores de pago en plataformas e-Commerce.
 
@@ -45,12 +45,15 @@ La aplicación está diseñada siguiendo una arquitectura RESTful y buenas prác
 # Estructura inicial del proyecto
 
 ```bash
-payment_gateway_api/
+GESTION_DE_PASARELAS/
 │
-├── providers/          # Gestión de proveedores de pago
-├── transactions/       # Gestión de transacciones e incidencias
-├── users/              # Autenticación y usuarios
-├── config/             # Configuración principal del proyecto
+├── blacklog/
+├── config/
+├── core/
+├── frontent/
+├── venv/
+├── docs/
+├── test/  
 ├── requirements.txt
 ├── README.md
 └── manage.py
